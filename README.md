@@ -8,14 +8,18 @@ et affiche leur nom, symbole et prix en USD.
 ## Prérequis
 - Avoir Python version 3.x
 - Avoir la fonction pip
-## Installation et exécution du programme
+## Façon 1) Installation et exécution du programme sur cmd
 ### 1. Clonez le dépôt sur votre machine :
-- https://github.com/AlexanderMOSIEJ/ue19-lab-05.git
+- git clone https://github.com/AlexanderMOSIEJ/ue19-lab-05.git
+- cd ue19-lab-05
 ### 2. Installer les différentes dépendances avec :
 - pip install -r requirements.txt
 ### 3. Lancer le programme avec :
 - python app.py
-## Construction de l'image Docker et exécuter le contenu
+## Façon 2) Construction de l'image Docker et exécuter le programme
+### clonner le programme :
+- git clone https://github.com/AlexanderMOSIEJ/ue19-lab-05.git
+- cd ue19-lab-05
 ### Construction :
 - docker build -t ue19-lab-05 .
 ### Exécution :
