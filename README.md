@@ -1,4 +1,4 @@
-# Application pour afficher les 5 crypto monnaies en live
+# Application pour afficher le  classement des 5  premières cryptomonnaies
 ## Description du programme
 Ce script récupère les 5 premières cryptomonnaies du marché via l'API CoinLore
 et affiche leur nom, symbole et prix en USD.
