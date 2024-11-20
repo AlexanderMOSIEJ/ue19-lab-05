@@ -17,6 +17,6 @@ et affiche leur nom, symbole et prix en USD.
 - python app.py
 ## Construction de l'image Docker et exécuter le contenu
 ### Construction :
-- docker build -t ue19-lab-05
+- docker build -t ue19-lab-05 .
 ### Exécution :
 - docker run --rm ue19-lab-05
