@@ -1,0 +1,2 @@
+# Le programme a besoin de requests de préférence la dernnière version
+requests
