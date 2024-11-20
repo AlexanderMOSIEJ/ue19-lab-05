@@ -4,7 +4,7 @@ FROM python:3
 WORKDIR /usr/src/app
 
 # Copier le script et les dépendances
-COPY app.py requirements.txt .
+COPY app.py requirements.txt ./
 
 # Installer les dépendances
 RUN pip install --no-cache-dir -r requirements.txt
