@@ -40,6 +40,6 @@ jobs:
         with:
           context: .
           push: True
-          tags: ${{ steps.meta.outputs.tags }}
+          tags: ghcr.io/alexandermosiej/ue19-lab-05
 
       
