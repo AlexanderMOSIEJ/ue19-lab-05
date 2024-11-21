@@ -42,4 +42,8 @@ jobs:
           push: True
           tags: ghcr.io/alexandermosiej/ue19-lab-05
 
-      
+      # Scanner Docker Image aqua trivy
+      - name: Scanner scanner Docker aqua trivy
+        uses: aquasecurity/trivy-action@master
+        with:
+          image-ref: ghcr.io/alexandermosiej/ue19-lab-05
